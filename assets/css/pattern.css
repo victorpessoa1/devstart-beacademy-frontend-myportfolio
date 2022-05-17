@@ -68,10 +68,27 @@ h2 span {
     line-height: 2.4rem;
 }
 
+.menu-item:hover {
+    color: var(--second-color);
+}
+
 .tag {
     border-radius: 5rem;
     padding: 0.6rem 2rem;
     background-color: var(--white-color);
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: var(--semi-black);
+    border: 0.1rem solid var(--semi-black);
+    border-radius: 0.4rem;
+    width: 100%;
+    padding: 2rem;
+    resize: none;
+    color: var(--white-color);
+    outline: none;
 }
