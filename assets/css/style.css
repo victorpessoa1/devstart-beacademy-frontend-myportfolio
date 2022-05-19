@@ -161,7 +161,7 @@ header .container nav .menu-social li a img:hover {
 
 .s-success .container .cards .card:hover {
     filter: brightness(0.9);
-    transform: scale(0.2);
+    transform: scale(80%);
 }
 
 .s-success .container .cards .card .card-title {
@@ -333,6 +333,7 @@ header .container nav .menu-social li a img:hover {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 2rem;
 }
 
 .s-contact .container .form-contact button {
